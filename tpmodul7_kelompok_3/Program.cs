@@ -7,5 +7,6 @@ public class Program
     public static void Main(string[] args)
     {
         DataMahasiswa2311104057.ReadJSON();
+        KuliahMahasiswa2311104057.ReadJSON();
     }
 }
