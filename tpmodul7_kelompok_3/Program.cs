@@ -1,4 +1,3 @@
-﻿using System;
 using tpmodul7_kelompok_3;
 
 using System;
@@ -10,6 +9,10 @@ class Program
         //Reyner
         DataMahasiswa2311104057.ReadJSON();
         KuliahMahasiswa2311104057.ReadJSON();
+      
+        // Alvin
+        KuliahMahasiswa2311104070.ReadJSON();
+        DataMahasiswa2311104070.ReadJSON();
         
         // Aulia
         Console.WriteLine("=== Data Mahasiswa ===");

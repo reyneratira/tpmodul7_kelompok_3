@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework> <!-- Ganti ke net7.0 kalau pakai .NET 7 -->
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -13,21 +13,29 @@
   </ItemGroup>
 
   <ItemGroup>
+    <!-- File JSON dari 2311104060 -->
     <Content Include="tp7_1_2311104060.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="tp7_2_2311104060.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <!-- File JSON dari 2311104057 -->
     <None Update="tp7_1_2311104057.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="tp7_2_2311104057.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <!-- File JSON dari 2311104070 -->
+    <None Update="tp7_1_2311104070.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <None Update="tp7_2_2311104070.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </ItemGroup>
 
   <ItemGroup>
+    <!-- File kode program -->
     <Compile Update="DataMahasiswa_2311104060.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
