@@ -7,16 +7,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Menjalankan deserialisasi JSON mahasiswa (soal no. 2)
+        
         Console.WriteLine("=== Data Mahasiswa ===");
-        var dataMahasiswa = new DataMahasiswa_2311104060(); // Ganti dengan NIM kamu
+        var dataMahasiswa = new DataMahasiswa_2311104060(); 
         dataMahasiswa.ReadJSON();
 
         Console.WriteLine(); // newline
 
-        // Menjalankan deserialisasi JSON mata kuliah (soal no. 4)
+        
         Console.WriteLine("=== Daftar Mata Kuliah ===");
-        var kuliahMahasiswa = new KuliahMahasiswa_2311104060(); // Ganti dengan NIM kamu
+        var kuliahMahasiswa = new KuliahMahasiswa_2311104060(); 
         kuliahMahasiswa.ReadJSON();
 
         Console.WriteLine(); // newline

@@ -22,8 +22,8 @@ namespace tpmodul7_kelompok_3
 
         public void ReadJSON()
         {
-            string path = "tp7_2_1234567890.json";
-            string jsonString = File.ReadAllText(path);
+
+            string jsonString = File.ReadAllText("tp7_2_2311104060.json");
 
             CourseList courseList = JsonSerializer.Deserialize<CourseList>(jsonString);
 
