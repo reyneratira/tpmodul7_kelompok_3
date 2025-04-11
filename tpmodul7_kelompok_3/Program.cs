@@ -1,12 +1,28 @@
-﻿using System.Text.Json;
+﻿using System;
 using tpmodul7_kelompok_3;
 
+using System;
 
-public class Program
+class Program
 {
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
+        //Reyner
         DataMahasiswa2311104057.ReadJSON();
         KuliahMahasiswa2311104057.ReadJSON();
+        
+        // Aulia
+        Console.WriteLine("=== Data Mahasiswa ===");
+        var dataMahasiswa = new DataMahasiswa_2311104060(); 
+        dataMahasiswa.ReadJSON();
+
+        Console.WriteLine(); // newline
+
+        
+        Console.WriteLine("=== Daftar Mata Kuliah ===");
+        var kuliahMahasiswa = new KuliahMahasiswa_2311104060(); 
+        kuliahMahasiswa.ReadJSON();
+
+        Console.WriteLine(); // newline
     }
 }
