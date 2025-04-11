@@ -7,7 +7,11 @@ class Program
 {
     static void Main(string[] args)
     {
+        //Reyner
+        DataMahasiswa2311104057.ReadJSON();
+        KuliahMahasiswa2311104057.ReadJSON();
         
+        // Aulia
         Console.WriteLine("=== Data Mahasiswa ===");
         var dataMahasiswa = new DataMahasiswa_2311104060(); 
         dataMahasiswa.ReadJSON();
